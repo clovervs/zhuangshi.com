@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -74,7 +75,7 @@ body{
     margin: 0 auto;
 }
 .cdlbox{
-    width: 528px;
+    width: 580px;
     height: 61px;
     /*background: aqua;*/
 }
