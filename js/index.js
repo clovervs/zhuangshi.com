@@ -27,7 +27,7 @@ window.onload=function(){
     let lbds=document.querySelectorAll(".lbd div");
     console.log(lbds);
     let index=0;
-    let t=setInterval(move,2000);
+    let t=setInterval(move,2500);
 //    初始化
     lis[0].style.zIndex=5;
     // lbds[0].classList.add("hot");
