@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*头部*/
+header{
+	height: 100px;
+}
+.boxL{
+	width: 585px;
+	height: 100%;
+	float: left;
+	padding: 0 20px;
+	box-sizing: border-box;
+	margin-left: 200px;
+}
+.bleft{
+	width: 60px;
+	height: 60px;
+	margin-top: 20px;	
+	float: left;
+}
+.bleft a{
+	display: block;
+	width: 60px;
+	height: 60px;
+/*	background:#7FFFD4;*/	
+}
+.bleft a img{
+	width: 60px;
+	height: 60px;
+}
+.bright{
+	height: 40px;
+	float: right;
+    line-height: 40px;
+    font-size: 22px;
+    margin-top: 34px;
+    margin-right: 300px;
+    padding: 0 30px; 
+    border-left: 2px solid #ddd;
+}
+.boxR{
+	width: 100px;
+	height: 20px;
+	float: right;
+	padding: 0 20px;
+	box-sizing: border-box;
+	margin-top: 40px;
+	margin-right: 150px;
+}
+.boxR a{
+	display: block;
+	float:right;
+	font-size: 14px;
+	color: #337ab7;
+    line-height: 20px;
+}
+.boxR a:hover{
+	text-decoration:underline;
+}
+/*内容开始*/
+.box{
+	height: 450px;
+	background-image:url(../img/2015020201454781.jpg);
+	background-position: center center;
+	position: relative;
+}
+.jiemian{
+	width: 400px;
+	height: 350px;
+    position: absolute;
+    top:50px;
+    left: 200px;
+    background-color: rgba(255,255,255,.7);
+    padding: 30px;
+    box-sizing: border-box;
+}
+input{
+	display: block;
+    width: 100%;
+    height: 45px;
+    padding: 6px 6px;
+    font-size: 14px;
+    line-height: 34px;
+    color: #555;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.wj{
+	display: block;
+	float:right;
+	font-size: 14px;
+	color: #337ab7;
+	text-align: right;
+    line-height: 20px;
+    margin-bottom: 18px;
+}
+.wj:hover{
+	text-decoration:underline;
+}
+button{
+	width: 100%;
+	background: #337ab7;
+	color: #fff;
+	padding: 10px 16px;
+    font-size: 18px;
+    margin: 0;
+    box-sizing: border-box;
+    border-color: #2e6da4;
+    border: 1px solid transparent;
+    margin-bottom: 15px;
+}
+button:hover{
+	background: #337ab7;
+}
+.zc{
+	display: block;
+	width: 100%;
+	background: #5bc0de;
+	color: #fff;
+	padding: 10px 16px;
+    font-size: 18px;
+    text-align: center;
+    box-sizing: border-box;
+}
+footer{
+    padding: 30px;
+	box-sizing: border-box;
+}
+.foot{
+	width: auto;
+	height: auto;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.foot p{
+	font-size: 14px;
+    color: #777;
+    text-align: center;
+    margin: 0 0 10px;
+    margin-bottom: 5px;
+}
