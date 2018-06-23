@@ -28,7 +28,6 @@ header{
 	display: block;
 	width: 60px;
 	height: 60px;
-/*	background:#7FFFD4;*/	
 }
 .bleft a img{
 	width: 60px;
@@ -51,7 +50,7 @@ header{
 	padding: 0 20px;
 	box-sizing: border-box;
 	margin-top: 40px;
-	margin-right: 150px;
+	margin-right: 300px;
 }
 .boxR a{
 	display: block;

@@ -1,10 +1,10 @@
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
-    list-style: none;
+    list-style-type:none;
 }
 a{
-    text-decoration: none;
+	text-decoration:none;
 }
 /*头部开始*/
 header{
@@ -77,7 +77,7 @@ body{
 	color: #fff;
 }
 /*头部结束*/
-/*菜单栏开始*/
+/*菜单开始*/
 .cdl{
     width: 100%;
     height: 61px;
@@ -109,7 +109,7 @@ body{
     font-size: 14px;
     color: #666666;
 }
-.cdlbox li:nth-child(2) a{
+.cdlbox li:nth-child(5) a{
     font-weight: bold;
 }
 .rxgs{
@@ -148,7 +148,7 @@ body{
     top:61px;
     left:-30px;
     overflow: hidden;
-    box-shadow: 0 0 010px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     transition: all 1s;
     z-index: 999;
 }
@@ -172,7 +172,7 @@ body{
     top:61px;
     left:-30px;
     overflow: hidden;
-    box-shadow: 0 0 010px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     transition: all 1s;
     z-index: 999;
 }
@@ -184,32 +184,94 @@ body{
 .jfhlbox div:hover{
     background:#ededed;
 }
-/*datu */
-
-.jsbj{
-    width: 1220px;
-    height: 5698px;
+/*内容开始*/
+section{
+	height:3600px;
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+.box{
+	width: 950px;
+	height: auto;
+	background: red;
+	padding: 0 auto;
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 8px;   
+}
+.tou{
+    width: 100%;
+    height: 61px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 1px 7px;
+    background: linear-gradient(#fbfbfb, #eee);
+	border-bottom: 1px solid #d4d4d4;
+    border-radius: 8px 8px 0 0;
+    position: relative;
+    box-sizing: border-box;
+}
+.tou h2{
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: normal;
+    color: #333;
+    line-height: 60px;
+    text-shadow: none;
+}
+.neirong{
+	width: 100%;
+	height:auto;
     background: #fff;
+   	margin:0 auto;
+    padding-bottom: 30px;
+    font-size: 14px;
+    border-radius:0 0 8px 8px; 
+    box-sizing: border-box;
+    overflow: hidden;
 }
-.jsbj img{
-    width:1220px;
-    height: 5698px;
+.neirong h1{
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 15px;
+    text-align: center;
+    padding: 40px 30px 0;
 }
-
+.neirong p{
+    font-size: 12px;
+    color: #666;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.tw{
+	width: 580px;
+	height: auto;
+	background: #fff;
+	margin: 0 auto;
+	padding-top: 30px ;
+}
+span{
+	font-size: 14px;
+	color: #333;
+	font-weight: normal;
+	text-align: center;
+}
+.tu{
+	width: 450px;
+	height: 300px;
+	margin: 15px auto;
+	text-align: center;
+}
+.tu img{
+	height: 100%;
+}
 /*底部开始*/
 .dibu{
     width: 100%;
     height:274px;
     background: #fff;
     overflow: hidden;
-    margin-top: 70px;
 }
 .dibunk{
     width: 100%;
     height:142px;
-    /*background: deeppink;*/
     margin-top: 70px;
 }
 .dbnkl{
@@ -222,7 +284,6 @@ body{
 .dbnkr{
     width:406px;
     height: 141px;
-    /*background: black;*/
     float: left;
 }
 .dubuul{
@@ -232,7 +293,6 @@ body{
 .dubuul li{
     width: 131px;
     height: 107px;
-    /*background: red;*/
 }
 .dubuul li div{
     font-size: 17px;
@@ -242,15 +302,14 @@ body{
 .dubuul li a{
     font-size: 13px;
     color:#969696;
-
 }
 .dubuul li a:hover{
     color:blue;
 }
 .dbnkr h3{
-    font-size: 27px;
-    float:right;
-}
+     font-size: 27px;
+     float:right;
+ }
 .dbnkr h6{
     float:right;
     margin-top: 50px;
@@ -270,63 +329,6 @@ body{
 }
 .zxly:hover{
 	background:linear-gradient(#fcfcfc, #f5f5f5);;
-}
-/*小标题*/
-.quanbu{
-	width: 1224px;
-	height: 60px;
-	margin: 0 auto;
-	border-top: 1px solid #ccc;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.wufen{
-	width: 130px;
-	height: 60px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.wufen a{
-	color: #999;
-	font-size: 12px;
-	text-align: center;
-	line-height: 60px;
-}
-.wufen a:hover{
-	color:dodgerblue;
-}
-/*内容*/
-.neirong{
-	width: 840px;
-	height: 320px;
-    margin: 0 auto;
-    color: #666;
-    position: relative;
-}
-.nr{
-	position: absolute;
-    right: 50px;
-    opacity: 0;
-    transition: all 1s;
-}
-.neirong span{
-	font-size:30px;
-	text-align: center;
-	color: #FFF;
-}
-.nr p{
-	font-size: 16px;
-    margin: 0px;
-    padding: 0px;
-}
-.neirong:hover .nr{
-	opacity:1;
-	right:50px
-}
-.nr:hover{
-
 }
 /*最底部*/
 .zuidb{
@@ -364,3 +366,7 @@ body{
     transition: all 1s;
     display: none;
 }
+.dubuul a:hover{
+	color: lightblue;
+}
+/*内容结束*/

@@ -1,10 +1,10 @@
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
-    list-style: none;
+    list-style-type:none;
 }
 a{
-    text-decoration: none;
+	text-decoration:none;
 }
 /*头部开始*/
 header{
@@ -77,7 +77,7 @@ body{
 	color: #fff;
 }
 /*头部结束*/
-/*菜单栏开始*/
+/*菜单开始*/
 .cdl{
     width: 100%;
     height: 61px;
@@ -109,9 +109,9 @@ body{
     font-size: 14px;
     color: #666666;
 }
-.cdlbox li:nth-child(2) a{
+/*.cdlbox li:nth-child(5) a{
     font-weight: bold;
-}
+}*/
 .rxgs{
     position: relative;
 }
@@ -148,7 +148,7 @@ body{
     top:61px;
     left:-30px;
     overflow: hidden;
-    box-shadow: 0 0 010px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     transition: all 1s;
     z-index: 999;
 }
@@ -172,7 +172,7 @@ body{
     top:61px;
     left:-30px;
     overflow: hidden;
-    box-shadow: 0 0 010px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     transition: all 1s;
     z-index: 999;
 }
@@ -184,32 +184,52 @@ body{
 .jfhlbox div:hover{
     background:#ededed;
 }
-/*datu */
-
-.jsbj{
-    width: 1220px;
-    height: 5698px;
-    margin: 0 auto;
-    border-radius: 5px;
-    background: #fff;
+/*内容开始*/
+.ly{
+	width:70%; 
+	height:500px;
+	background: #fff;
+	margin:0 auto;
+	margin-bottom: 50px;
+	padding: 30px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	position: relative;
 }
-.jsbj img{
-    width:1220px;
-    height: 5698px;
+.ly input{
+	width: 100%;
+	height: 46px;
+	margin: 10px;
+	line-height: 36px;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+	outline: none;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	font-size: 16px;
+	background: #fff;
+	color: #bcc2c8;
+	border-radius: 8px;
+    box-shadow: 0 3px 5px -4px rgba(0, 0, 0, 0.4) inset;
 }
-
+button{
+	position: absolute;
+    top: 55px;
+    right: 40px;
+    background: transparent;
+    border: none;
+}
 /*底部开始*/
 .dibu{
     width: 100%;
     height:274px;
     background: #fff;
     overflow: hidden;
-    margin-top: 70px;
 }
 .dibunk{
     width: 100%;
     height:142px;
-    /*background: deeppink;*/
     margin-top: 70px;
 }
 .dbnkl{
@@ -222,7 +242,6 @@ body{
 .dbnkr{
     width:406px;
     height: 141px;
-    /*background: black;*/
     float: left;
 }
 .dubuul{
@@ -232,7 +251,6 @@ body{
 .dubuul li{
     width: 131px;
     height: 107px;
-    /*background: red;*/
 }
 .dubuul li div{
     font-size: 17px;
@@ -242,15 +260,14 @@ body{
 .dubuul li a{
     font-size: 13px;
     color:#969696;
-
 }
 .dubuul li a:hover{
     color:blue;
 }
 .dbnkr h3{
-    font-size: 27px;
-    float:right;
-}
+     font-size: 27px;
+     float:right;
+ }
 .dbnkr h6{
     float:right;
     margin-top: 50px;
@@ -270,63 +287,6 @@ body{
 }
 .zxly:hover{
 	background:linear-gradient(#fcfcfc, #f5f5f5);;
-}
-/*小标题*/
-.quanbu{
-	width: 1224px;
-	height: 60px;
-	margin: 0 auto;
-	border-top: 1px solid #ccc;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.wufen{
-	width: 130px;
-	height: 60px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.wufen a{
-	color: #999;
-	font-size: 12px;
-	text-align: center;
-	line-height: 60px;
-}
-.wufen a:hover{
-	color:dodgerblue;
-}
-/*内容*/
-.neirong{
-	width: 840px;
-	height: 320px;
-    margin: 0 auto;
-    color: #666;
-    position: relative;
-}
-.nr{
-	position: absolute;
-    right: 50px;
-    opacity: 0;
-    transition: all 1s;
-}
-.neirong span{
-	font-size:30px;
-	text-align: center;
-	color: #FFF;
-}
-.nr p{
-	font-size: 16px;
-    margin: 0px;
-    padding: 0px;
-}
-.neirong:hover .nr{
-	opacity:1;
-	right:50px
-}
-.nr:hover{
-
 }
 /*最底部*/
 .zuidb{
@@ -364,3 +324,7 @@ body{
     transition: all 1s;
     display: none;
 }
+.dubuul a:hover{
+	color: lightblue;
+}
+/*内容结束*/
